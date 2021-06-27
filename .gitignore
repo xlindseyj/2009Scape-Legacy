@@ -37,3 +37,4 @@ Launcher/
 .classpath
 .project
 Server/data/eco/offer_dispatch.json
+build/

@@ -166,7 +166,7 @@ public abstract class GameShell extends Applet implements Runnable, FocusListene
             if (!this.displayError) {
                 this.displayError = true;
                 System.out.println("error_game_" + var1);
-                JOptionPane.showMessageDialog(frame, "Error: " + var1 + (var1.contains("js5connect") ? ". The game is likely down." : "") + "\nCheck Discord (https://discord.gg/43YPGND) in a relevant #help channel, and a kind user might be able to help you out.");
+                JOptionPane.showMessageDialog(frame, "Error: " + var1 + (var1.contains("js5connect") ? ". The game is likely down." : "") + "\nCheck Discord (https://discord.gg/43YPGND) in the #help channel.");
                 try {
                     Objects.requireNonNull(this.getAppletContext()).showDocument(new URL(this.getCodeBase(), "error_game_" + var1 + ".ws"), "_top");
                 } catch (Exception var4) {

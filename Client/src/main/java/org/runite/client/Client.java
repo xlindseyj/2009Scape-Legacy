@@ -1042,7 +1042,7 @@ public final class Client extends GameShell {
             CS2Script.userCurrentWorldID = ObjectDefinition.paramWorldID;
 
             Unsorted.parsePreferences(Class38.gameSignlink);
-            SystemLogger.logInfo("port: " + Class53.anInt867);
+            SystemLogger.logInfo("Port: " + Class53.anInt867);
             SystemLogger.logInfo("MSIP: " + GameConfig.IP_MANAGEMENT);
 
             if (Class44.paramModeWhere == LIVE_ENVIRONMENT) {

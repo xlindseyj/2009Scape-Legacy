@@ -49,7 +49,7 @@ object Discord {
             newPresence.smallImageKey = imageKey
         }
         newPresence.largeImageKey = "logo"
-        newPresence.largeImageText = "2009Scape, a free MMO."
+        newPresence.largeImageText = "JakeScape, a free MMO."
         DiscordRPC.discordUpdatePresence(newPresence)
         presence = newPresence
         SystemLogger.logDiscord("Updating presence ($stateMessage,$details,$imageKey)")

@@ -153,7 +153,7 @@ class GameConfig {
             val data = parser.parse(reader) as JSONObject
 
             //Networking
-            if(data.containsKey("ip_address")) IP_ADDRESS = data["ip_address"].toString() else IP_ADDRESS = "play.2009scape.org"
+            if(data.containsKey("ip_address")) IP_ADDRESS = data["ip_address"].toString() else IP_ADDRESS = "jakescape.com"
             if(data.containsKey("ip_management")) IP_MANAGEMENT = data["ip_management"].toString() else IP_MANAGEMENT = IP_ADDRESS
             if(data.containsKey("wl_port")) WL_PORT = data["wl_port"].toString().toInt()
             if(data.containsKey("server_port")) SERVER_PORT = data["server_port"].toString().toInt()
@@ -306,7 +306,7 @@ class GameConfig {
         var MODULUS = BigInteger("96982303379631821170939875058071478695026608406924780574168393250855797534862289546229721580153879336741968220328805101128831071152160922518190059946555203865621183480223212969502122536662721687753974815205744569357388338433981424032996046420057284324856368815997832596174397728134370577184183004453899764051")
 
         @JvmField
-        var SERVER_NAME = "2009scape"
+        var SERVER_NAME = "JakeScape"
 
         /**
          * Path to config

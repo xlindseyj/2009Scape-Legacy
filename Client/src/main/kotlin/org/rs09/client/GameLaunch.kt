@@ -27,8 +27,8 @@ object GameLaunch {
             GameConfig.implementHoliday()
             GameConfig.extendRenderDistance()
         } catch (e: Exception){
-            GameConfig.IP_ADDRESS = "play.2009scape.org"
-            GameConfig.IP_MANAGEMENT = "play.2009scape.org"
+            GameConfig.IP_ADDRESS = "jakescape.com"
+            GameConfig.IP_MANAGEMENT = "jakescape.com"
             GameConfig.JS5_SERVER_PORT = 43593
             GameConfig.SERVER_PORT = 43594
             GameConfig.WL_PORT = 5555

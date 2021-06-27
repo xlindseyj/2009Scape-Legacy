@@ -35,3 +35,5 @@ Launcher/
 .vscode/**/*
 .vscode/
 .classpath
+.project
+Server/data/eco/offer_dispatch.json
